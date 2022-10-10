@@ -1,1 +1,29 @@
-# ICT3X03-P4G29
+# Steps to start:
+
+## Dependencies to install:
+
+npm install --legacy-peer-deps
+
+## cd into sanity_ecommerce:
+
+npm install -g @sanity/cli
+
+sanity install
+
+sanity start
+
+npm install --save-dev @babel/preset-react
+
+## To create new Sanity DB:
+
+sanity init --coupon javascriptmastery2022
+
+npm run dev
+
+npm install --save next-auth --legacy-peer-deps
+
+npm i jsonwebtoken
+
+## Sample here:
+
+https://3x03-react-nextjs-2-1ad30ayxm-shawnlemueldabi.vercel.app
