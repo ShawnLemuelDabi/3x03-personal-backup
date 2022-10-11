@@ -3,6 +3,7 @@
 ## Dependencies to install:
 
 npm install --legacy-peer-deps
+
 npm run dev
 
 ## (If needed only) cd into sanity_ecommerce:
