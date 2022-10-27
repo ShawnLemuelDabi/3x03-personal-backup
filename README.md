@@ -25,3 +25,5 @@ npm run dev
 npm install --save next-auth --legacy-peer-deps
 
 npm i jsonwebtoken
+
+npm install react-cookie-consent
