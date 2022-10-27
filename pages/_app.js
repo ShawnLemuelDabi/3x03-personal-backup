@@ -4,7 +4,7 @@ import { CacheProvider } from '@emotion/react';
 import { StoreProvider } from '../utils/Store';
 import { SnackbarProvider } from 'notistack';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
-
+import CookieConsent from "react-cookie-consent";
 const clientSideEmotionCache = createCache({ key: 'css' });
 
 function MyApp({
@@ -13,7 +13,7 @@ function MyApp({
   emotionCache = clientSideEmotionCache,
 }) {
   return (
-    <CacheProvider value={emotionCache}>
+    <><CookieConsent debug={true}>This website uses cookies to enhance the user experience.</CookieConsent><CacheProvider value={emotionCache}>
       <SnackbarProvider
         anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
       >
@@ -23,8 +23,10 @@ function MyApp({
           </PayPalScriptProvider>
         </StoreProvider>
       </SnackbarProvider>
-    </CacheProvider>
+    </CacheProvider></>
   );
+
 }
 
 export default MyApp;
+
