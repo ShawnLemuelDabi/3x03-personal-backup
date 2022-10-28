@@ -15,7 +15,7 @@ const classes = {
     textAlign: 'center',
   },
   appbar: {
-    backgroundColor: '#203040',
+    backgroundColor: '#000000',
     '& a': {
       color: '#ffffff',
       marginLeft: 1,
@@ -44,7 +44,6 @@ const classes = {
   hidden: {
     display: 'none',
   },
-  // search
 
   searchForm: {
     border: '1px solid #ffffff',
@@ -59,9 +58,9 @@ const classes = {
     },
   },
   searchButton: {
-    backgroundColor: '#f8c040',
+    backgroundColor: '#32a852',
     padding: 1,
-    borderRadius: '0 5px 5px 0',
+    borderRadius: '0 10px 10px 0',
     '& span': {
       color: '#000000',
     },

@@ -63,10 +63,10 @@ export default function Layout({ title, description, children }) {
     palette: {
       mode: darkMode ? 'dark' : 'light',
       primary: {
-        main: '#f0c000',
+        main: '#32a852',
       },
       secondary: {
-        main: '#208080',
+        main: '#a832a4',
       },
     },
   });
