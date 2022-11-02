@@ -63,10 +63,10 @@ export default function Layout({ title, description, children }) {
     palette: {
       mode: darkMode ? 'dark' : 'light',
       primary: {
-        main: '#f0c000',
+        main: '#32a852',
       },
       secondary: {
-        main: '#208080',
+        main: '#a832a4',
       },
     },
   });
@@ -269,7 +269,11 @@ export default function Layout({ title, description, children }) {
                 <NextLink href="/login" passHref>
                   <Link>Login</Link>
                 </NextLink>
+                
               )}
+              <NextLink href="/register" passHref>
+                  <Link>Register</Link>
+                </NextLink>
             </Box>
           </Toolbar>
         </AppBar>
