@@ -1,5 +1,5 @@
 {
-  "name": "sanity-amazona",
+  "name": "3x03-project",
   "private": true,
   "scripts": {
     "dev": "next dev",
